@@ -158,5 +158,5 @@ gcloud container clusters delete ${CLUSTER}
 ```
 3. Delete the Cloud Filestore instance
 ```sh
-gcloud beta filestore delete ${FS} --location ${ZONE}
+gcloud beta filestore instances delete ${FS} --location ${ZONE}
 ```
