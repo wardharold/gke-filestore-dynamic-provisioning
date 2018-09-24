@@ -45,8 +45,8 @@ FSADDR=$(gcloud beta filestore instances describe ${FS} \
 1. Create the cluster and get its credentials
 ```sh
 CLUSTER=[NAME OF THE KUBERNETES CLUSTER YOU WILL CREATE]
-gcloud container cluster create ${CLUSTER}
-gcloud container cluster get-credentials ${CLUSTER}
+gcloud container clusters create ${CLUSTER}
+gcloud container clusters get-credentials ${CLUSTER}
 ```
 2. Grant yourself cluster-admin privileges
 ```sh
