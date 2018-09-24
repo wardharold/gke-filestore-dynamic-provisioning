@@ -3,7 +3,7 @@ Kubernetes storage volumes in Google Kubernetes Engine
 from [Cloud Filestore](https://cloud.google.com/filestore/) using the 
 [Kubernetes NFS-Client Provisioner](https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client).
 
-[![button](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/wardharold/julia-notebook&page=editor&tutorial=tutorial.md)
+[![button](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/wardharold/gke-filestore-dynamic-provisioning&page=editor&tutorial=tutorial.md)
 
 ## Task 0 (OPTIONAL) Create a project with a billing account attached 
 **(you can also use an existing project and skip to the next step)**
